@@ -10,6 +10,7 @@ public class Main {
         System.out.println("Data Structures and Algorithm");
         Scanner scannerInput = new Scanner(System.in); // Taking input from the keyboard
         System.out.println("User input: " + scannerInput.nextLine());
+        System.out.println();
 
         // Primitives - data that can't be broken further
         int i = 20;
@@ -19,8 +20,9 @@ public class Main {
         long l = 34324343423432432L; // large integer
         boolean b = false;
 
-        //
+        // Wrapper classes
         String s = "Theo";
+        Integer integer = 45;
     }
 }
 
