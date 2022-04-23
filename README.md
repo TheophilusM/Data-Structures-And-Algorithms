@@ -14,6 +14,7 @@
 * Pass by value only in Java
 * Shadowing
 * Method overloading
+* Arrays
 
 ## **Java Code**
 * Java file, human readable
