@@ -50,7 +50,48 @@ public class Main {
 
         // Unicode principles - can print any character of different languages
 
-        //
+        // Switch statements
+        String name = scannerInput.nextLine();
+        switch (name) {
+            case "Theo":
+                System.out.println("Name is Theo");
+                break;
+            case "Taku":
+                System.out.println("Name is Taku");
+                break;
+            default:
+                System.out.println("Name not known!");
+                break;
+        }
+        // enhanced switch statement
+        if (name.equals("Theo")) {
+            System.out.println("Name is Theo");
+        }
+
+        // nested switch case
+        String fruit = scannerInput.nextLine();
+        switch (fruit) {
+            case "Round":
+                String fruitName = scannerInput.nextLine();
+                switch (fruitName) {
+                    case "Mango":
+                        System.out.println("Name is Mango");
+                        break;
+                    case "Apple":
+                        System.out.println("Name is Apple");
+                        break;
+                    default:
+                        System.out.println("Fruit name unknown!");
+                        break;
+                }
+                break;
+            case "Oval":
+                System.out.println("Oval fruits...");
+                break;
+            default:
+                System.out.println("Fruit type unknown!");
+                break;
+        }
     }
 }
 
