@@ -11,6 +11,7 @@ public class Fibonacci {
             n = ?
          */
         Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the nth number: ");
         int n = scanner.nextInt();
 
         int prevNumber = 0;
@@ -26,7 +27,9 @@ public class Fibonacci {
 
             count++;
         }
-        System.out.println("");
+        System.out.println("The nth fibonacci number is: " + currentNumber);
+
+        // 0, 1, 1, 2, 3, 5, 8, 13, 21, 34...
     }
 }
 
