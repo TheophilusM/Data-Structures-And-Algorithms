@@ -12,7 +12,7 @@ public class ArrayListClass {
                 - data type that can be stored
                 - only wrapper classes
                 - can be ignored -> ArrayList<>
-            -
+            - amortised time complexity
          */
         ArrayList<Integer> integersList = new ArrayList<>(5);
         integersList.add(16);
@@ -38,5 +38,8 @@ public class ArrayListClass {
         for(int i = 0; i < 10; i++) {
             integersList.set(i, scanner.nextInt());
         }
+
+        // Muilti AL
+        ArrayList<ArrayList<Integer>> arrayLists = new ArrayList<>();
     }
 }
