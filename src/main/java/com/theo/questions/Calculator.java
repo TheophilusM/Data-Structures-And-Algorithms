@@ -1,4 +1,4 @@
-package com.theo;
+package com.theo.questions;
 
 import java.util.Arrays;
 import java.util.Scanner;
