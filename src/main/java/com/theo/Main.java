@@ -24,6 +24,7 @@ public class Main {
         double v1 = 9343343.343; // large decimal
         long l = 34324343423432432L; // large integer
         boolean b = false;
+        short i1 = 1024;
 
         // Wrapper classes
         String s = "Theo";
@@ -31,7 +32,7 @@ public class Main {
 
         // Type conversion
         float v2 = scannerInput.nextFloat();  // if user puts an int it will be converted automatically to float
-        int i1 = (int) 56.45f;
+        int i2 = (int) 56.45f;
         byte b1 = (byte) 257;
         /*
             Auto type conversion:
@@ -48,6 +49,8 @@ public class Main {
          */
 
         // Unicode principles - can print any character of different languages
+
+        //
     }
 }
 
