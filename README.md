@@ -31,16 +31,21 @@
 
 ## **Questions**
 # _Find the largest number_
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
+# _Calculator_
+# _Fibonacci nth value_
+# _Count number of occurrences of a number_
+# _Letter case check_
+# _Reverse a number_
+# __
+# __
+# __
+# __
+# __
+# __
+# __
+# __
+# __
+# __
+# __
+# __
+# __
