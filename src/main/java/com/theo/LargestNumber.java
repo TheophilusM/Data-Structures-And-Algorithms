@@ -18,9 +18,11 @@ public class LargestNumber {
         if (largest < a) {
             largest = a;
         }
+
         if (largest < b) {
             largest = b;
         }
+
         if (largest < c) {
             largest = c;
         }
