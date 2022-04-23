@@ -49,11 +49,60 @@ public class ArraysClass {
             System.out.println("Position " + (position) + " :" + i);
             position++;
         }
+
+        // 2D arrays
+        int[][] ints2 = new int[3][3];    // can omit column size definition
+        int[][] ints3 = {
+            {1, 2, 3},
+            {4, 5, 4, 6},
+            {7, 8, 9},      // index 2
+        };
+
+        // input using for loop -> 1 2 3 4 5 6 7 8 9
+        System.out.print("Inputs: ");
+        for (int row = 0; row < ints2.length; row++) {
+            // for each col in every row
+            for (int col = 0; col < ints2[row].length; col++) {
+                ints2[row][col] = scanner.nextInt();
+            }
+        }
+
+        // output using for loop
+        System.out.println("Output:");
+        for (int row = 0; row < ints2.length; row++) {
+            // for each col in every row
+            for (int col = 0; col < ints2[row].length; col++) {
+                System.out.print(ints2[row][col] + " ");
+            }
+            System.out.println();
+        }
+
+        // output using for loop
+        System.out.println("Output for dynamic array:");
+        for (int[] item : ints3) {
+            // for each col in every row
+            for (int col = 0; col < item.length; col++) {
+                System.out.print(item[col] + " ");
+            }
+            System.out.println();
+        }
+
+        // output using toString
+        System.out.println("Output:");
+        for (int row = 0; row < ints2.length; row++) {
+            System.out.println(Arrays.toString(ints2[row]));
+        }
+
+        // output using enhanced for loop
+        for (int[] value : ints2) {
+            System.out.println(Arrays.toString(value));
+        }
     }
 
     static void arrayMethod(int[] inputs) {
         System.out.println("Method: " + Arrays.toString(inputs));
     }
+
 
 }
 
@@ -76,10 +125,10 @@ public class ArraysClass {
         -   1 2 3
             4 5 6
             7 8 9
-        - int[][] = new[rows][columns]
+        - int[][] = new int[rows][columns]
         - int[][] = {
-                {1, 2, 3},
-                {4, 5, 6},
-                {7, 8, 9},
+                {1, 2, 3},      // row 1, 3 columns
+                {4, 5, 4, 6},      // row 2, 4 columns
+                {7, 8, 9},      // row 3, 3 columns
             };
  */
