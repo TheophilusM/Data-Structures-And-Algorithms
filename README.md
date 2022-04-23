@@ -42,8 +42,8 @@
 # _Reverse a number_
 # _Armstrong Number_
 # _Reverse Array_
-# __
-# __
+# _Swap Array Values_
+# _Find max value in Array_
 # __
 # __
 # __
