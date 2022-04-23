@@ -28,6 +28,26 @@ public class Main {
         // Wrapper classes
         String s = "Theo";
         Integer integer = 45;
+
+        // Type conversion
+        float v2 = scannerInput.nextFloat();  // if user puts an int it will be converted automatically to float
+        int i1 = (int) 56.45f;
+        byte b1 = (byte) 257;
+        /*
+            Auto type conversion:
+                - float >> integer
+                - int >> byte
+            Type casting/ narrowing conversion:
+                - float << integer
+                - int << byte
+            Automatic type promotion in expressions
+                - auto conversion during computation
+                - Rules:
+                    - byte and short -> int
+                    - ...
+         */
+
+        // Unicode principles - can print any character of different languages
     }
 }
 
@@ -63,4 +83,6 @@ public class Main {
         - next() -> 1st string before space only
         - nextLine() -> string
         - nextInt() -> int
+        - nextFloat() -> float
+        - nextLong() -> long
  */
