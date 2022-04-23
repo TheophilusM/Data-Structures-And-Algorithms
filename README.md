@@ -41,7 +41,7 @@
 # _Letter case check_
 # _Reverse a number_
 # _Armstrong Number_
-# __
+# _Reverse Array_
 # __
 # __
 # __
