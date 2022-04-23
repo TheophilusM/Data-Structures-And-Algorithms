@@ -10,9 +10,9 @@ public class LetterCaseCheck {
         char c = scanner.next().trim().charAt(0);
 
         if (c >= 'a' && c <= 'z'){
-            System.out.println("Lower case letter");
+            System.out.println("Lowercase letter");
         } else if (c >= 'A' && c <= 'Z') {
-            System.out.println("Upper case letter");
+            System.out.println("Uppercase letter");
         }
     }
 }
