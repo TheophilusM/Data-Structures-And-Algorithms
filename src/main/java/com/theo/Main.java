@@ -3,6 +3,8 @@ package com.theo;
 import java.util.Scanner;
 
 public class Main {
+    // Shadowing - instance variables by re-declaring it in a block scope
+    static int i = 20_000;
     public static void main(String[] args) {
         /*
         System.out.println(args[0]);    // Passed as >> java Main 23 "Theo"
@@ -12,9 +14,8 @@ public class Main {
         Scanner scannerInput = new Scanner(System.in); // Taking input from the keyboard
         System.out.println("User input: " + scannerInput.nextLine());
         System.out.println();
-
         // Primitives - data that can't be broken further
-        int i = 20_000_000;
+        i = 20_000_000; // shadowing
         /*
             i -> identifier
             20 000 000 -> value
@@ -25,11 +26,9 @@ public class Main {
         long l = 34324343423432432L; // large integer
         boolean b = false;
         short i1 = 1024;
-
         // Wrapper classes
         String s = "Theo";
         Integer integer = 45;
-
         // Type conversion
         float v2 = scannerInput.nextFloat();  // if user puts an int it will be converted automatically to float
         int i2 = (int) 56.45f;
@@ -47,7 +46,6 @@ public class Main {
                     - byte and short -> int
                     - ...
          */
-
         // Unicode principles - can print any character of different languages
 
         // Switch statements
@@ -67,7 +65,6 @@ public class Main {
         if (name.equals("Theo")) {
             System.out.println("Name is Theo");
         }
-
         // nested switch case
         String fruit = scannerInput.nextLine();
         switch (fruit) {
@@ -129,4 +126,8 @@ public class Main {
         - nextInt() -> int
         - nextFloat() -> float
         - nextLong() -> long
+ */
+// function overloading
+/*
+    - Two methods of the same name with different number and/or type of inputs
  */

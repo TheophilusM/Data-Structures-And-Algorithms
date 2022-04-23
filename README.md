@@ -11,6 +11,9 @@
     - processing
     - conditions
 * Pseudocode
+* Pass by value only in Java
+* Shadowing
+* Method overloading
 
 ## **Java Code**
 * Java file, human readable
@@ -36,7 +39,7 @@
 # _Count number of occurrences of a number_
 # _Letter case check_
 # _Reverse a number_
-# __
+# _Armstrong Number_
 # __
 # __
 # __

@@ -1,12 +1,12 @@
 package com.theo;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 // take user input
 public class Calculator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        Calculator calculator = new Calculator();
         int ans = 0;
         while (true) {
             // take user input
@@ -22,19 +22,18 @@ public class Calculator {
                 int num1 = scanner.nextInt();
                 System.out.print("Enter 2nd number: ");
                 int num2 = scanner.nextInt();
-                ans = calculator.calculatorMethod(num1, num2, c);
+                ans = calculatorMethod(num1, num2, c);
+                varMethod(num1, num2);
+                varMixMethod(2, 3, num1, num2);
                 if (c == 'x' || c == 'X') {
                     break;
                 }
-                else {
-                    System.out.println("Invalid input");
-                }
-            System.out.println("Answer: " + ans);
+                System.out.println("Answer: " + ans);
             }
         }
 
     }
-    public int calculatorMethod (int a, int b , char c) {
+    static int calculatorMethod (int a, int b , char c) {
         if(c == '+') {
             return a + b;
         }
@@ -53,6 +52,13 @@ public class Calculator {
             return a % b;
         }
         else return 0;
+    }
+    static void varMethod(int ...ints) {
+        System.out.println(Arrays.toString(ints));
+    }
+    static void varMixMethod(int a, int b, int ...ints) {
+        System.out.println(Arrays.toString(ints));
+        System.out.println(a + " " + b);
     }
 }
 
