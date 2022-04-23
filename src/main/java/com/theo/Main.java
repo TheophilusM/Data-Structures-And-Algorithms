@@ -8,6 +8,7 @@ public class Main {
         System.out.println(args[0]);    // Passed as >> java Main 23 "Theo"
          */
         System.out.println("Data Structures and Algorithm");
+        System.out.print("Please enter your name: ");
         Scanner scannerInput = new Scanner(System.in); // Taking input from the keyboard
         System.out.println("User input: " + scannerInput.nextLine());
         System.out.println();
