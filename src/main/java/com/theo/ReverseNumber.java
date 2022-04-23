@@ -9,8 +9,11 @@ public class ReverseNumber {
         int result = 0;
 
         while (i > 0) {
+            // get last value
             int last = i%10;
+            // remove last value from input
             i /= 10;
+            // multiply current result by 10 and add last number
             result = result * 10 + last;
         }
 
