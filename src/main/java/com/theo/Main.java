@@ -14,7 +14,11 @@ public class Main {
         System.out.println();
 
         // Primitives - data that can't be broken further
-        int i = 20;
+        int i = 20_000_000;
+        /*
+            i -> identifier
+            20 000 000 -> value
+         */
         char c = 'a';
         float v = 98.7f;
         double v1 = 9343343.343; // large decimal
