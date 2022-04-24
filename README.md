@@ -50,8 +50,8 @@
 #### _Swap Array Values_
 #### _Find max value in Array_
 #### _Search Array for a value_
-#### _Search 2D Array for a value_
-#### __
+#### _Search the 2D array for a value_
+#### _Number in the array >= to target_
 #### __
 #### __
 #### __
