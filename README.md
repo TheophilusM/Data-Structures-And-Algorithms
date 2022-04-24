@@ -1,7 +1,11 @@
 # **Data Structures & Algorithms**
 
 ## **Intro**
+<<<<<<< HEAD
 * Procedural, Functional, Object-Oriented Programming
+=======
+* Procedural, Functional, Object Oriented Programming
+>>>>>>> dabc70fd8cfc286a90a402007a8a9263b7107ca2
 * Static and Dynamic language
 * Stack memory - storing ref variable
 * Heap memory - storing value/object
@@ -16,11 +20,14 @@
 * Method overloading
 * Arrays
 * ArrayList
+<<<<<<< HEAD
 * Complexity
     - Time
         - Time taken to traverse through a collection of data to find something.
     - Space
 
+=======
+>>>>>>> dabc70fd8cfc286a90a402007a8a9263b7107ca2
 ## **Java Code**
 * Java file, human readable
 * File compiled to `.class` byte code file - JDK
@@ -39,6 +46,7 @@
     - Interpreter/loader
 
 ## **Questions**
+<<<<<<< HEAD
 #### _Find the largest number_
 #### _Calculator_
 #### _Fibonacci nth value_
@@ -65,3 +73,24 @@
   - Sorted arrays
   - Unsorted arrays
     - Order-agnostic
+=======
+# _Find the largest number_
+# _Calculator_
+# _Fibonacci nth value_
+# _Count number of occurrences of a number_
+# _Letter case check_
+# _Reverse a number_
+# _Armstrong Number_
+# _Reverse Array_
+# _Swap Array Values_
+# _Find max value in Array_
+# __
+# __
+# __
+# __
+# __
+# __
+# __
+# __
+# __
+>>>>>>> dabc70fd8cfc286a90a402007a8a9263b7107ca2

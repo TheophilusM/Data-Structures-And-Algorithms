@@ -19,11 +19,14 @@
             <artifactId>maven-compiler-plugin</artifactId>
             <version>3.8.1</version>
         </dependency>
+<<<<<<< HEAD
         <dependency>
             <groupId>org.jetbrains</groupId>
             <artifactId>annotations</artifactId>
             <version>1.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
+=======
+>>>>>>> dabc70fd8cfc286a90a402007a8a9263b7107ca2
     </dependencies>
 </project>
