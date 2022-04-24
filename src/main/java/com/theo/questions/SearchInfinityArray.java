@@ -14,14 +14,16 @@ public class SearchInfinityArray {
         int end = 2;
 
         // condition of target in range
-        while (true) {
+        while (target >= arr[end]) {
             if (target < end) {
                 return binarySearch(arr, target, start, end);
             } else {
-                start = end + 1;
-                end = end*end;
+                int temp = end + 1;
+                end = end + (end - start + 1) * 2;
+                start = temp;
             }
         }
+        return -1;
     }
 
     static int binarySearch(int[] arr, int target, int start, int end) {
